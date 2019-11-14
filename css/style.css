@@ -1,16 +1,36 @@
-html{
-    margin: 0;
-}
-
-/* Layout */
-
-
-/* Typography */
-body{
-    font-family: 'Lora', serif;
-}
-/* Colour */
+/* Colour
 #F8F8F8
 #707070
 #1792D2
 #143774
+
+  font-family: "Lora", serif;
+*/
+html {
+  margin: 0;
+}
+
+/* Layout */
+
+header {
+  text-align: center;
+}
+
+nav ul {
+  border: 1px solid magenta;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  border: 2px solid orange;
+  margin: 0 1em;
+}
+
+nav a {
+  border: 3px solid green;
+}
+nav a:hover {
+}
